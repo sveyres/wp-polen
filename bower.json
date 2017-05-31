@@ -1,0 +1,22 @@
+{
+  "name": "wp-polen",
+  "homepage": "https://github.com/sveyres/wp-polen",
+  "authors": [
+    "salwa <salwaoudad@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "static/external/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "boostrap#^3.3.7",
+    "font-awesome": "fontawesome#^4.7.0"
+  }
+}
