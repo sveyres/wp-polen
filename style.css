@@ -51,8 +51,15 @@ body {
         margin-top: -155px;
         position: relative;
         max-width: 100%; }
+        body .allsite header .container .lozere img {
+          width: 100%; }
     body .allsite main .baseline article {
       display: flex; }
+      body .allsite main .baseline article img {
+        transition: all 0.5s ease 0s; }
+      body .allsite main .baseline article img:hover {
+        transform: rotate(360deg);
+        transition: 0.5s; }
     body .allsite main .actu h2 {
       text-transform: uppercase;
       text-align: left;
@@ -68,7 +75,10 @@ body {
       body .allsite main .actu article img {
         width: 100%;
         height: auto;
-        filter: grayscale(100%); }
+        filter: grayscale(100%);
+        opacity: 0.8; }
+      body .allsite main .actu article img:hover {
+        opacity: 1; }
       body .allsite main .actu article h3 {
         font-weight: bold;
         font-size: 0.9em; }

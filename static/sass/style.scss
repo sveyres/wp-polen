@@ -65,6 +65,9 @@ body {
                     margin-top: -155px;
                     position: relative;
                     max-width: 100%;
+                    img {
+                        width: 100%;
+                    }
                 }
             }
         }
@@ -72,6 +75,13 @@ body {
             .baseline {
                 article {
                     display: flex;
+                    img {
+                        transition: all 0.5s ease 0s
+                    }
+                    img:hover {
+                        transform: rotate(360deg);
+                        transition: 0.5s;
+                    }
                 }
             }
             .actu {
@@ -86,7 +96,12 @@ body {
                         width: 100%;
                         height: auto;
                         filter: grayscale(100%);
+                        opacity: 0.8;
                     }
+                    img:hover {
+                        opacity: 1;
+                    }
+
                     h3 {
                         font-weight: bold;
                         font-size: 0.9em;

@@ -38,7 +38,7 @@
                             </div>
                             <div class="allslider">
                                 <div class="slider">
-                                    <?php echo do_shortcode("[metaslider id=93]");?>
+                                    <?php echo do_shortcode("[metaslider id=84]");?>
                                 </div>
                                 <div class="lozere">
                                     <img src="<?php echo get_stylesheet_directory_uri() . '/static/img/bandeau-blanc.png';?>" alt="bandeau">
