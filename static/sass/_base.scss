@@ -1,0 +1,10 @@
+
+@mixin titre($size) {
+    text-transform: uppercase;
+    text-align: left;
+    display: block;
+    font-family: sintony,arial;
+    font-size: $size;
+    font-weight: 700;
+    color: rgb(58, 109, 176)
+}

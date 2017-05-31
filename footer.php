@@ -1,5 +1,5 @@
 <footer>
-    <div class="row">
+    <div class="rowone">
         <div class="col-xs-12 col-sm-6">
             <h4>inscription à la newsletter</h4>
             <form method="post">
@@ -18,7 +18,7 @@
         <p>Auncun événememnt</p>
         </div>
     </div>
-    <div class="row">
+    <div class="rowtwo">
         <div class="col-xs-12 col-sm-6 col-md-3">
             <img src="wp-content/themes/wp-polen/static/img/polenfoot.jpg" alt="Polen">
         </div>
@@ -30,7 +30,7 @@
             Email : contact@lozere-developpement.com </p>
         </div>
         <div class="col-xs-12 col-md-6">
-            <img src="wp-content/themes/wp-polen/static/img/polenfinanceurs.jpg" alt="">
+            <img src="wp-content/themes/wp-polen/static/img/polenfinanceurs.jpg" alt="financeurs">
         </div>
     </div>
 </footer>
