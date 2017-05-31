@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Titre de la page</title>
+        <title>Polen</title>
 
         <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() . '/static/external/bootstrap/dist/css/bootstrap.min.css';?>">
         <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() . '/static/external/bootstrap/dist/css/bootstrap-theme.min.css';?>">
@@ -28,8 +28,9 @@
                 );
                 ?>
             </div>
-            <img src="wp-content/themes/wp-polen/static/img/lozere_nouvelle_vie.png" alt="">
+            <img src="<?php echo get_stylesheet_directory_uri() . '/static/img/lozere_nouvelle_vie.png';?>" alt="">
         </nav>
+        
         <div class="container">
             <div class="rowone">
                 <nav class="navbar navbar-default">
