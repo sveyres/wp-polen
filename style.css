@@ -21,6 +21,14 @@ body header .navbar_top {
       background-color: black; }
       body header .navbar_top .navbar ul:nth-child(2) a {
         border-bottom: 1px solid white; }
+body main h2 {
+  text-transform: uppercase;
+  text-align: left;
+  display: block;
+  font-family: sintony,arial;
+  font-size: 18px;
+  font-weight: 700;
+  color: #3a6db0; }
 body footer {
   margin: auto; }
   body footer .rowone {

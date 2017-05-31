@@ -21,7 +21,7 @@
         </div>
         <div class="rowtwo">
             <div class="col-xs-12 col-sm-6 col-md-3">
-                <img src="wp-content/themes/wp-polen/static/img/polenfoot.jpg" alt="Polen">
+                <img src="<?php echo get_stylesheet_directory_uri() . '/static/img/polenfoot.jpg';?>" alt="polen">
             </div>
             <div class="col-xs-12 col-sm-6 col-md-3">
                 <h5> Pôle Lozérien d'Economie Numérique</h5>
@@ -31,7 +31,7 @@
                 Email : contact@lozere-developpement.com </p>
             </div>
             <div class="col-xs-12 col-md-6">
-                <img src="wp-content/themes/wp-polen/static/img/polenfinanceurs.jpg" alt="financeurs">
+                <img src="<?php echo get_stylesheet_directory_uri() . '/static/img/polenfinanceurs.jpg';?>" alt="financeurs">
             </div>
         </div>
     </div>

@@ -25,14 +25,10 @@
                             'order'            => 'ASC',
                             'category_name'    => 'innovantes'
                         );
-                        $posts = get_posts($args);?>
+                        $posts = get_posts($args);
 
-                            <?php
-                            printf( '<h2>%s</h2>', $category->name);?>
-                        
-
-
-                            <?php get_template_part( 'template-parts/content_loop_actu'); ?>
+                        echo '<h2>'.get_cat_name(4).'</h2>';
+                        get_template_part( 'template-parts/content_loop_actu'); ?>
 
                     </div>
                     <div class="col-md-4">
@@ -44,6 +40,7 @@
                             'category_name'    => 'entreprise'
                         );
                         $posts = get_posts($args);
+                        echo '<h2>'.get_cat_name(5).'</h2>';
                         get_template_part( 'template-parts/content_loop_actu');
                         ?>
                     </div>
@@ -56,6 +53,7 @@
                             'category_name'    => 'teletravail'
                         );
                         $posts = get_posts($args);
+                        echo '<h2>'.get_cat_name(6).'</h2>';
                         get_template_part( 'template-parts/content_loop_actu');
                         ?>
                     </div>
