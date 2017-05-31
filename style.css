@@ -6,55 +6,83 @@ Author: les3f
 Description: Theme Polen.
 Version: 1.0
 */
-body header .navbar_top {
-  display: flex;
-  background-color: #4974c0; }
-  body header .navbar_top .navbar {
-    background-color: #4974c0;
-    width: 100%;
-    border: none;
-    margin: 0; }
-    body header .navbar_top .navbar ul {
-      list-style: none;
-      margin-top: 1em; }
-      body header .navbar_top .navbar ul a {
-        color: white; }
-    body header .navbar_top .navbar ul:nth-child(2) {
-      background-color: black; }
-      body header .navbar_top .navbar ul:nth-child(2) a {
-        border-bottom: 1px solid white; }
-body main .baseline article {
-  display: flex; }
-body main .actu h2 {
-  text-transform: uppercase;
-  text-align: left;
-  display: block;
-  font-family: sintony,arial;
-  font-size: 18px;
-  font-weight: 700;
-  color: #3a6db0; }
-body main .actu article {
-  border-bottom: 1px solid lightgrey;
-  padding: 1em;
-  margin-top: 0.5em; }
-  body main .actu article img {
-    width: 100%;
-    height: auto;
-    filter: grayscale(100%); }
-  body main .actu article h3 {
-    font-weight: bold;
-    font-size: 0.9em; }
-body footer {
-  margin: auto; }
-  body footer .rowone {
-    display: flex; }
-    body footer .rowone h4 {
+body {
+  background-image: url(./static/img/pat1.png);
+  background-color: #f0f0f0; }
+  body .navbar_top {
+    display: flex;
+    background-color: #4974c0; }
+    body .navbar_top .navbar {
+      background-color: #4974c0;
+      width: 100%;
+      border: none;
+      margin: 0; }
+      body .navbar_top .navbar ul {
+        list-style: none;
+        margin-top: 1em; }
+        body .navbar_top .navbar ul a {
+          color: white; }
+      body .navbar_top .navbar ul:nth-child(2) {
+        background-color: black; }
+        body .navbar_top .navbar ul:nth-child(2) a {
+          border-bottom: 1px solid white; }
+  body .allsite {
+    max-width: 1200px;
+    background-image: url(./static/img/pat.png);
+    background-color: #fff;
+    margin: 10px auto;
+    padding: 20px;
+    box-shadow: 0 0 5px grey; }
+    body .allsite header .container {
+      width: 100%; }
+      body .allsite header .container .polen {
+        position: relative;
+        z-index: 3;
+        margin-top: 0;
+        margin-left: auto;
+        margin-right: auto;
+        width: 217px; }
+        body .allsite header .container .polen img {
+          vertical-align: middle; }
+      body .allsite header .container .slider {
+        position: relative;
+        margin-top: -100px; }
+      body .allsite header .container .lozere {
+        margin-top: -155px;
+        position: relative;
+        max-width: 100%; }
+    body .allsite main .baseline article {
+      display: flex; }
+    body .allsite main .actu h2 {
       text-transform: uppercase;
       text-align: left;
       display: block;
       font-family: sintony,arial;
-      font-size: 16px;
+      font-size: 18px;
       font-weight: 700;
       color: #3a6db0; }
+    body .allsite main .actu article {
+      border-bottom: 1px solid lightgrey;
+      padding: 1em;
+      margin-top: 0.5em; }
+      body .allsite main .actu article img {
+        width: 100%;
+        height: auto;
+        filter: grayscale(100%); }
+      body .allsite main .actu article h3 {
+        font-weight: bold;
+        font-size: 0.9em; }
+    body .allsite footer {
+      margin: auto; }
+      body .allsite footer .rowone {
+        display: flex; }
+        body .allsite footer .rowone h4 {
+          text-transform: uppercase;
+          text-align: left;
+          display: block;
+          font-family: sintony,arial;
+          font-size: 16px;
+          font-weight: 700;
+          color: #3a6db0; }
 
 /*# sourceMappingURL=style.css.map */

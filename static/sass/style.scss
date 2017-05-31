@@ -13,66 +13,96 @@ Version: 1.0
 
 
 body {
-    header {
-        .navbar_top {
-            display: flex;
+    background-image: url(./static/img/pat1.png);
+    background-color: #f0f0f0;
+    .navbar_top {
+        display: flex;
+        background-color: #4974c0;
+        .navbar {
             background-color: #4974c0;
-
-            .navbar {
-                background-color: #4974c0;
+            width: 100%;
+            border: none;
+            margin: 0;
+            ul {
+                list-style: none;
+                margin-top: 1em;
+                a{
+                    color: white;
+                }
+            }
+            ul:nth-child(2){
+                background-color: black;
+                a {
+                    border-bottom: 1px solid white;
+                }
+            }
+        }
+    }
+    .allsite {
+        max-width: 1200px;
+        background-image: url(./static/img/pat.png);
+        background-color: #fff;
+        margin: 10px auto;
+        padding: 20px;
+        box-shadow: 0 0 5px grey;
+        header {
+            .container {
                 width: 100%;
-                border: none;
-                margin: 0;
-                ul {
-                    list-style: none;
-                    margin-top: 1em;
-                    a{
-                        color: white;
+                .polen {
+                    position: relative;
+                    z-index:3;
+                    margin-top: 0;
+                    margin-left: auto;
+                    margin-right: auto;
+                    width: 217px;
+                    img {
+                        vertical-align: middle;
                     }
                 }
-                ul:nth-child(2){
-                    background-color: black;
-                    a {
-                        border-bottom: 1px solid white;
+                .slider {
+                    position: relative;
+                    margin-top: -100px;
+                }
+                .lozere {
+                    margin-top: -155px;
+                    position: relative;
+                    max-width: 100%;
+                }
+            }
+        }
+        main {
+            .baseline {
+                article {
+                    display: flex;
+                }
+            }
+            .actu {
+                h2 {
+                    @include titre(18px);
+                }
+                article {
+                    border-bottom: 1px solid lightgrey;
+                    padding: 1em;
+                    margin-top: 0.5em;
+                    img {
+                        width: 100%;
+                        height: auto;
+                        filter: grayscale(100%);
+                    }
+                    h3 {
+                        font-weight: bold;
+                        font-size: 0.9em;
                     }
                 }
             }
         }
-    }
-
-
-    main {
-        .baseline {
-            article {
+        footer {
+            margin: auto;
+            .rowone {
                 display: flex;
-            }
-        }
-        .actu {
-            h2 {
-                @include titre(18px);
-            }
-            article {
-                border-bottom: 1px solid lightgrey;
-                padding: 1em;
-                margin-top: 0.5em;
-                img {
-                    width: 100%;
-                    height: auto;
-                    filter: grayscale(100%);
+                h4 {
+                    @include titre(16px);
                 }
-                h3 {
-                    font-weight: bold;
-                    font-size: 0.9em;
-                }
-            }
-        }
-    }
-    footer {
-        margin: auto;
-        .rowone {
-            display: flex;
-            h4 {
-                @include titre(16px);
             }
         }
     }
