@@ -1,49 +1,60 @@
-/*
-Error: Invalid CSS after "@import "base"": expected "{", was ";"
-        on line 14 of static/sass/style.scss
+/**
+ * The Header template for our theme
 
-9: Version: 1.0
-10: *\/
-11: 
-12: 
-13: 
-14: @import "base";
-15: 
-16: 
-17: body {
-18:     header {
-19:         .navbar_top {
-
-Backtrace:
-static/sass/style.scss:14
-/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:1179:in `expected'
-/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:1115:in `expected'
-/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:1110:in `tok!'
-/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:654:in `block'
-/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:647:in `ruleset'
-/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:673:in `block_child'
-/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:663:in `block_contents'
-/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:123:in `stylesheet'
-/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:39:in `parse'
-/usr/lib/ruby/vendor_ruby/sass/engine.rb:403:in `_to_tree'
-/usr/lib/ruby/vendor_ruby/sass/engine.rb:378:in `_render_with_sourcemap'
-/usr/lib/ruby/vendor_ruby/sass/engine.rb:295:in `render_with_sourcemap'
-/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:490:in `update_stylesheet'
-/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:209:in `each'
-/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:471:in `on_file_changed'
-/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:328:in `block in watch'
-/usr/lib/ruby/vendor_ruby/listen/event/config.rb:23:in `call'
-/usr/lib/ruby/vendor_ruby/listen/event/processor.rb:115:in `_process_changes'
-/usr/lib/ruby/vendor_ruby/listen/event/processor.rb:19:in `block in loop_for'
-/usr/lib/ruby/vendor_ruby/listen/event/processor.rb:15:in `loop'
-/usr/lib/ruby/vendor_ruby/listen/event/processor.rb:15:in `loop_for'
-/usr/lib/ruby/vendor_ruby/listen/event/loop.rb:84:in `_wait_for_changes'
-/usr/lib/ruby/vendor_ruby/listen/event/loop.rb:42:in `block in setup'
-/usr/lib/ruby/vendor_ruby/listen/internals/thread_pool.rb:6:in `block in add'
+Theme Name: Polen
+Author: les3f
+Description: Theme Polen.
+Version: 1.0
 */
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"@import \"base\"\": expected \"{\", was \";\"\A         on line 14 of static/sass/style.scss\A \A 9: Version: 1.0\A 10: */\A 11: \A 12: \A 13: \A 14: @import \"base\";\A 15: \A 16: \A 17: body {\A 18:     header {\A 19:         .navbar_top {"; }
+body header .navbar_top {
+  display: flex;
+  background-color: #4974c0; }
+  body header .navbar_top .navbar {
+    background-color: #4974c0;
+    width: 100%;
+    border: none;
+    margin: 0; }
+    body header .navbar_top .navbar ul {
+      list-style: none;
+      margin-top: 1em; }
+      body header .navbar_top .navbar ul a {
+        color: white; }
+    body header .navbar_top .navbar ul:nth-child(2) {
+      background-color: black; }
+      body header .navbar_top .navbar ul:nth-child(2) a {
+        border-bottom: 1px solid white; }
+body main .baseline article {
+  display: flex; }
+body main .actu h2 {
+  text-transform: uppercase;
+  text-align: left;
+  display: block;
+  font-family: sintony,arial;
+  font-size: 18px;
+  font-weight: 700;
+  color: #3a6db0; }
+body main .actu article {
+  border-bottom: 1px solid lightgrey;
+  padding: 1em;
+  margin-top: 0.5em; }
+  body main .actu article img {
+    width: 100%;
+    height: auto;
+    filter: grayscale(100%); }
+  body main .actu article h3 {
+    font-weight: bold;
+    font-size: 0.9em; }
+body footer {
+  margin: auto; }
+  body footer .rowone {
+    display: flex; }
+    body footer .rowone h4 {
+      text-transform: uppercase;
+      text-align: left;
+      display: block;
+      font-family: sintony,arial;
+      font-size: 16px;
+      font-weight: 700;
+      color: #3a6db0; }
+
+/*# sourceMappingURL=style.css.map */
