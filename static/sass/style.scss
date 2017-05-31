@@ -75,6 +75,12 @@ body {
             .baseline {
                 article {
                     display: flex;
+                    h2 {
+                        @include titre(18px);
+                    }
+                    a {
+                        color: inherit;
+                    }
                     img {
                         transition: all 0.5s ease 0s
                     }
@@ -87,6 +93,8 @@ body {
             .actu {
                 h2 {
                     @include titre(18px);
+                    text-transform: uppercase;
+
                 }
                 article {
                     border-bottom: 1px solid lightgrey;
@@ -115,6 +123,8 @@ body {
                 display: flex;
                 h4 {
                     @include titre(16px);
+                    text-transform: uppercase;
+                    
                 }
             }
         }

@@ -55,19 +55,28 @@ body {
           width: 100%; }
     body .allsite main .baseline article {
       display: flex; }
+      body .allsite main .baseline article h2 {
+        text-align: left;
+        display: block;
+        font-family: sintony,arial;
+        font-size: 18px;
+        font-weight: 700;
+        color: #3a6db0; }
+      body .allsite main .baseline article a {
+        color: inherit; }
       body .allsite main .baseline article img {
         transition: all 0.5s ease 0s; }
       body .allsite main .baseline article img:hover {
         transform: rotate(360deg);
         transition: 0.5s; }
     body .allsite main .actu h2 {
-      text-transform: uppercase;
       text-align: left;
       display: block;
       font-family: sintony,arial;
       font-size: 18px;
       font-weight: 700;
-      color: #3a6db0; }
+      color: #3a6db0;
+      text-transform: uppercase; }
     body .allsite main .actu article {
       border-bottom: 1px solid lightgrey;
       padding: 1em;
@@ -87,12 +96,12 @@ body {
       body .allsite footer .rowone {
         display: flex; }
         body .allsite footer .rowone h4 {
-          text-transform: uppercase;
           text-align: left;
           display: block;
           font-family: sintony,arial;
           font-size: 16px;
           font-weight: 700;
-          color: #3a6db0; }
+          color: #3a6db0;
+          text-transform: uppercase; }
 
 /*# sourceMappingURL=style.css.map */
