@@ -29,7 +29,6 @@
                 </div>
                 <img src="<?php echo get_stylesheet_directory_uri() . '/static/img/lozere_nouvelle_vie.png';?>" alt="">
             </nav>
-
             <div class="container">
                 <div class="rowone">
                     <?php echo do_shortcode("[metaslider id=84]");?>
