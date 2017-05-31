@@ -4,6 +4,23 @@ Author: les3f
 Description: Theme Polen.
 Version: 1.0
 */
+
+
+
+@import "base";
+
+
 body {
-    background-color: pink;
+
+    footer {
+        margin: auto;
+        .rowone {
+            display: flex;
+                h4 {
+                    @include titre(16px);
+                }
+
+        }
+
+    }
 }
