@@ -21,6 +21,18 @@ body header .navbar_top {
       background-color: black; }
       body header .navbar_top .navbar ul:nth-child(2) a {
         border-bottom: 1px solid white; }
+body main .baseline article {
+  display: flex; }
+body main .actu article {
+  border-bottom: 1px solid lightgrey;
+  padding: 1em;
+  margin-top: 0.5em; }
+  body main .actu article img {
+    width: 100%;
+    height: auto; }
+  body main .actu article p {
+    font-weight: bold;
+    font-size: 0.9em; }
 body footer {
   margin: auto; }
   body footer .rowone {

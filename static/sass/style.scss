@@ -21,7 +21,7 @@ body {
                 width: 100%;
                 border: none;
                 margin: 0;
-                
+
                 ul {
                     list-style: none;
                     margin-top: 1em;
@@ -36,6 +36,29 @@ body {
                     a {
                         border-bottom: 1px solid white;
                     }
+                }
+            }
+        }
+    }
+
+    main {
+        .baseline {
+            article {
+                display: flex;
+            }
+        }
+        .actu {
+            article {
+                border-bottom: 1px solid lightgrey;
+                padding: 1em;
+                margin-top: 0.5em;
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+                p {
+                    font-weight: bold;
+                    font-size: 0.9em;
                 }
             }
         }
