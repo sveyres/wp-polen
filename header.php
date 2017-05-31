@@ -29,11 +29,13 @@
                 </div>
                 <img src="<?php echo get_stylesheet_directory_uri() . '/static/img/lozere_nouvelle_vie.png';?>" alt="">
             </nav>
-            <?php
-    echo do_shortcode("[metaslider id=93]");
-?>
             <div class="container">
                 <div class="rowone">
+
+                    <?php
+    echo do_shortcode("[metaslider id=93]");
+?>
+
                     <nav class="navbar navbar-default">
                         <div class="container">
                             <!-- Brand and toggle get grouped for better mobile display -->

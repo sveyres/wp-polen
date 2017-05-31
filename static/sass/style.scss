@@ -1,4 +1,6 @@
-/*
+/**
+ * The Header template for our theme
+
 Theme Name: Polen
 Author: les3f
 Description: Theme Polen.
@@ -21,18 +23,15 @@ body {
                 width: 100%;
                 border: none;
                 margin: 0;
-
                 ul {
                     list-style: none;
                     margin-top: 1em;
-
                     a{
                         color: white;
                     }
                 }
                 ul:nth-child(2){
                     background-color: black;
-
                     a {
                         border-bottom: 1px solid white;
                     }
@@ -59,8 +58,9 @@ body {
                 img {
                     width: 100%;
                     height: auto;
+                    filter: grayscale(100%);
                 }
-                p {
+                h3 {
                     font-weight: bold;
                     font-size: 0.9em;
                 }
