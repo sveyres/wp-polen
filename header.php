@@ -30,7 +30,9 @@
             </div>
             <img src="<?php echo get_stylesheet_directory_uri() . '/static/img/lozere_nouvelle_vie.png';?>" alt="">
         </nav>
-        
+        <?php
+echo do_shortcode('[smartslider3 slider=3]');
+?>
         <div class="container">
             <div class="rowone">
                 <nav class="navbar navbar-default">
