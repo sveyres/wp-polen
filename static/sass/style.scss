@@ -41,6 +41,7 @@ body {
         }
     }
 
+
     main {
         .baseline {
             article {
@@ -48,6 +49,9 @@ body {
             }
         }
         .actu {
+            h2 {
+                @include titre(18px);
+            }
             article {
                 border-bottom: 1px solid lightgrey;
                 padding: 1em;
