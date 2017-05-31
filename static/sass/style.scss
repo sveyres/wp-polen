@@ -11,16 +11,42 @@ Version: 1.0
 
 
 body {
+    header {
+        .navbar_top {
+            display: flex;
+            background-color: #4974c0;
 
+            .navbar {
+                background-color: #4974c0;
+                width: 100%;
+                border: none;
+                margin: 0;
+                
+                ul {
+                    list-style: none;
+                    margin-top: 1em;
+
+                    a{
+                        color: white;
+                    }
+                }
+                ul:nth-child(2){
+                    background-color: black;
+
+                    a {
+                        border-bottom: 1px solid white;
+                    }
+                }
+            }
+        }
+    }
     footer {
         margin: auto;
         .rowone {
             display: flex;
-                h4 {
-                    @include titre(16px);
-                }
-
+            h4 {
+                @include titre(16px);
+            }
         }
-
     }
 }

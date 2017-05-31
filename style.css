@@ -1,11 +1,26 @@
-<<<<<<< HEAD
-=======
 /*
 Theme Name: Polen
 Author: les3f
 Description: Theme Polen.
 Version: 1.0
 */
+body header .navbar_top {
+  display: flex;
+  background-color: #4974c0; }
+  body header .navbar_top .navbar {
+    background-color: #4974c0;
+    width: 100%;
+    border: none;
+    margin: 0; }
+    body header .navbar_top .navbar ul {
+      list-style: none;
+      margin-top: 1em; }
+      body header .navbar_top .navbar ul a {
+        color: white; }
+    body header .navbar_top .navbar ul:nth-child(2) {
+      background-color: black; }
+      body header .navbar_top .navbar ul:nth-child(2) a {
+        border-bottom: 1px solid white; }
 body footer {
   margin: auto; }
   body footer .rowone {
@@ -20,4 +35,3 @@ body footer {
       color: #3a6db0; }
 
 /*# sourceMappingURL=style.css.map */
->>>>>>> 83538f3b847b2efa1800f351b84c300358aacfe3
