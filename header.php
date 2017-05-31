@@ -32,9 +32,7 @@
 
             <div class="container">
                 <div class="rowone">
-                    <?php
-    echo do_shortcode("[metaslider id=91]");
-?>
+                    <?php echo do_shortcode("[metaslider id=84]");?>
                     <nav class="navbar navbar-default">
                         <div class="container">
                             <!-- Brand and toggle get grouped for better mobile display -->
